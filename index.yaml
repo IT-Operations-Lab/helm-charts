@@ -3,7 +3,7 @@ entries:
   message-receiver:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-02-10T13:35:51.216726631+04:00"
+    created: "2025-02-10T13:57:09.793070296+04:00"
     description: A Helm chart for message receiver from ActiveMQ Artemis
     digest: ac103b1f0da8229df6bfca6ad88824928a72af856e5c0b43c1fbcfb4193043aa
     name: message-receiver
@@ -14,7 +14,17 @@ entries:
   message-sender:
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-02-10T13:35:51.217337008+04:00"
+    created: "2025-02-10T13:57:09.79391676+04:00"
+    description: A Helm chart for message sender to ActiveMQ Artemis
+    digest: 198f3814418082ce9e325d04f8ed006e515a412cf768f665f00b61adc7a80637
+    name: message-sender
+    type: application
+    urls:
+    - charts/message-sender-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2025-02-10T13:57:09.793662325+04:00"
     description: A Helm chart for message sender to ActiveMQ Artemis
     digest: 9dadc161514a95bd2dc75c569d41febffa31d581003cd3500593eca7f75c1c05
     name: message-sender
@@ -24,7 +34,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-02-10T13:35:51.217081294+04:00"
+    created: "2025-02-10T13:57:09.793345351+04:00"
     description: A Helm chart for message sender to ActiveMQ Artemis
     digest: f135447c4f80a2f182f40cfaa4c01a9397cb72d4d90180b7614eee47af24f43d
     name: message-sender
@@ -32,4 +42,4 @@ entries:
     urls:
     - charts/message-sender-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-10T13:35:51.216210665+04:00"
+generated: "2025-02-10T13:57:09.792519032+04:00"
